@@ -1,0 +1,6 @@
+• Briefly explain the vulnerability and why the secure version prevents the
+vulnerability.
+- In insecure.js, when a user hits the /update-role endpoint, we do not have any authetication mechanism to verify the user's identity. So, adding a strong authetication would make it secure.
+• What additional security mechanisms can you incorporate to prevent such
+attacks?
+- We can add a strong authetication mechanism like 2FA.

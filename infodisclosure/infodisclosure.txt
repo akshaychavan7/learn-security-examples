@@ -8,4 +8,6 @@ Which CIA property does tampering violate?
 Confidentiality
 
 What additional security mechanisms can you incorporate?
-We can remove the console logs which logs sensitive information.
+- We can remove the console logs which logs sensitive information.
+- Add some authentication mechanism
+- When sending information between channels, we should encrypt the payload.
